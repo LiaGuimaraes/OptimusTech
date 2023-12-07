@@ -1,0 +1,301 @@
+:root{
+    --branco:#fff;  
+    --cinza-claro:#667085;
+    --vinho:#8E2424;
+    --cinza-escuro:#101828;
+    --cinza:#3A404E;
+    --cinza-mais-claro:#D0D5DD;
+    --fonte-principal:'Inter', sans-serif;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.cabeçalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 5em;
+    font-weight: 500;
+    gap: 20px;
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.cabeçalho__menu{
+    display: flex;
+    width: 35%;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 10em;
+    gap: 40px;
+    
+}
+
+
+
+
+
+.cabeçalho__logo{
+    padding-right: 0.5em;
+}
+    
+
+
+.cabeçalho__titulo{
+    font-size: 18px;
+    font-weight: 500;
+   
+}
+
+.entrada{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+    
+}
+
+
+    
+
+
+.cabeçalho__opçoes{
+    text-decoration: none;
+    color: var(--cinza-claro);
+    
+    
+}
+
+
+.opçoes__botao{
+    background-color: var(--vinho);
+    color: var(--branco);
+    border-radius: 15%;
+    padding: 0.8em 1.5em;
+    text-decoration: none;
+}
+
+.apresentaçao{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    text-align: center;
+    align-items: center;
+    padding: 2.5em 2em;
+    justify-content: space-around;
+    margin: 5em;
+    
+    
+    
+    
+}
+
+.apresentaçao__titulo{
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--vinho)
+    
+   
+    
+    
+    
+
+}
+
+.apresentaçao__questao{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--cinza-escuro);
+   
+}
+
+.apresentaçao__resposta{
+    font-size: 20px;
+    color: var(--cinza-claro);
+
+}
+    
+
+.definicoes{
+    display: flex;
+    padding: 10em;
+    justify-content: flex-start;
+    align-content: space-around;
+    
+}
+
+.bloco{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: 1em;
+    
+}
+
+.bloco__numeros{
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vinho);
+}
+
+.bloco__titulo-secundario{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cinza-escuro);
+    
+}
+
+.bloco__texto{
+    color: var(--cinza-claro);
+    
+}
+
+.apresentaçao__subtitulo{
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--cinza-escuro);
+    
+}
+
+.imagem{
+    padding: 2em;
+    width: 100%;
+}
+
+.vagas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    margin: 10% 30%;
+    
+}
+
+.vagas__carreira{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--cinza-escuro);
+    padding: 3em 0;
+   
+    
+    
+}
+
+.funcao{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0.5em;
+    
+    
+}
+
+.oferta{
+    display: flex;    
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cinza-claro);
+    padding: 0.5em;
+    gap: 1.5em;
+    
+    
+}
+
+.bloco-funcao{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em 0 0 0;
+    
+
+
+}
+
+.apresentaçao__vaga{
+    padding: 0.5em;
+    border-radius: 15%;
+    background-color:cornsilk;
+    font-weight: 500;
+}
+
+.apresentaçao__importancia{
+    font-weight: 500;
+    
+}
+
+.nome-colaboradora{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cinza-escuro);
+}
+
+.funcao-colaboradora{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza);
+}
+
+.apresentaçao__bloco-rosa{
+    background-color: lightgoldenrodyellow;
+    margin: 0 10em;
+}
+
+    
+.principal{
+    margin: 10em;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    
+}
+
+.cadastro{
+    display: flex;
+    padding: 3em;
+    gap: 1em;
+    
+   
+}
+.campo-email{
+    padding: 0.5em 10em 0.5em 1em;
+    border: 1px solid var(--cinza-mais-claro) ;      
+    border-radius: 5px;
+    color: var(--cinza-claro);
+    
+}
+.rodape{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza-claro);
+    text-align: center;
+}
+
+
+
+    
+
+
+
+
+
+    
